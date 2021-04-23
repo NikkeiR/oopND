@@ -7,14 +7,14 @@ class Hamster extends Pet {
         this.canEatTillDeath = false;
     }
 
-    // eat() {
-    //     if (this.canEatTillDeath) {
-    //         this.canEatTillDeath = true;
-    //         console.log(`As ${this.name} galiu valgyt kol uzsilenksiu!`);
-    //     } else {
-    //         console.log(`As ${this.name} laikausi dietos!`);
-    //     }
-    // }
+    eat() {
+        if (this.canEatTillDeath) {
+            this.canEatTillDeath = true;
+            console.log(`As ${this.name} galiu valgyt kol uzsilenksiu!`);
+        } else {
+            console.log(`As ${this.name} laikausi dietos!`);
+        }
+    }
 }
 
 module.exports = Hamster;
