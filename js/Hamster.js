@@ -4,7 +4,7 @@ class Hamster extends Pet {
     constructor(name, color) {
         super(name, color);
         this.sound = 'Niam niam';
-        this.canEatTillDeath = false;
+        this.canEatTillDeath = true;
     }
 
     eat() {

@@ -1,8 +1,8 @@
 const Animal = require('./Animal.js');
 
 class Bird extends Animal {
-    constructor(name, color, sound) {
-        super(name, color, sound);
+    constructor(name, color) {
+        super(name, color);
         this.wingsCount = 2;
         this.canFly = true;
     }
